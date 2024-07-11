@@ -9,7 +9,6 @@ const BudgetCalculator = () => {
   };
 
   const calculateExpenses = () => {
-    // Simulate calculating expenses based on budget and selected options
     const calculatedExpenses = {
       flights: 500,
       accommodations: 800,

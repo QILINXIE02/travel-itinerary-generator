@@ -10,7 +10,6 @@ const ItineraryBuilder = () => {
   };
 
   const generateItinerary = () => {
-    // Simulate generating itinerary based on travel dates and preferences
     const generatedItinerary = [
       {
         day: 'Day 1',

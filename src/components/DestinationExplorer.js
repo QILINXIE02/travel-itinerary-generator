@@ -13,7 +13,6 @@ const DestinationExplorer = () => {
   };
 
   const handleExploreDestinations = () => {
-    // Simulate fetching suggested destinations based on interests
     const destinations = [
       { id: 1, name: 'Mountains Adventure', description: 'Explore scenic mountain trails and activities.' },
       { id: 2, name: 'Historical Tour', description: 'Visit historical landmarks and learn about local culture.' },

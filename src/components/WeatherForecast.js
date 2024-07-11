@@ -9,7 +9,6 @@ const WeatherForecast = () => {
   };
 
   const fetchWeatherForecast = () => {
-    // Simulate fetching weather forecast based on selected destination
     const fetchedForecast = {
       date: '2024-07-25',
       temperature: '25°C',
