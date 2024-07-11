@@ -1,71 +1,20 @@
-# Getting Started with Create React App
+# Travel Itinerary Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Travel Itinerary Generator app designed to help users plan trips efficiently by providing various features such as destination exploration, personalized itinerary creation, budget estimation, weather forecasts, offline access to travel plans, and recommendations for local attractions and activities.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Destination Explorer**: Allows users to explore destinations based on their interests like adventure sports, historical sites, or culinary experiences.
+- **Itinerary Builder**: Generates detailed itineraries with daily activities, attractions, and dining options based on user input for travel dates and preferences.
+- **Budget Calculator**: Estimates travel costs including flights, accommodations, activities, and dining, and helps users manage their trip budget.
+- **Weather Forecast**: Provides weather forecasts for selected destinations during the user's travel dates to help plan activities accordingly.
+- **Offline Access**: Enables users to download and access their travel itineraries offline, ensuring they have access even without an internet connection.
+- **Recommendations**: Offers suggestions for popular local attractions, events, and activities based on user interests and chosen destination.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# travel-itinerary-generator
+- React: Front-end library for building user interfaces.
+- JavaScript (ES6+): Programming language used for logic implementation.
+- HTML/CSS: Markup and styling languages for structuring and designing the user interface.
+- Node.js: JavaScript runtime environment for building server-side applications.
+- Additional libraries: Used various libraries for PDF generation (`@react-pdf/renderer`), document templating (`docxtemplater`), and file handling (`file-saver`, `jszip`).
