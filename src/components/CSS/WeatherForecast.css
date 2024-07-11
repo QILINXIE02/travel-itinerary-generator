@@ -1,0 +1,13 @@
+/* WeatherForecast.css */
+.weather-forecast label {
+  display: block;
+  margin: 10px 0;
+}
+
+.weather-forecast div {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+}

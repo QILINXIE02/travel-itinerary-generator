@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './CSS/BudgetCalculator.css';
 
 const BudgetCalculator = () => {
   const [budget, setBudget] = useState(0);

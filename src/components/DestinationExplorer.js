@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+import './CSS/DestinationExplorer.css';
+
 
 const DestinationExplorer = () => {
   const [interests, setInterests] = useState([]);
   const [suggestedDestinations, setSuggestedDestinations] = useState([]);
-
+ 
   const handleInterestChange = (interest) => {
     if (interests.includes(interest)) {
       setInterests(interests.filter((item) => item !== interest));

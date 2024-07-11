@@ -1,0 +1,12 @@
+/* Recommendations.css */
+.recommendations ul {
+  padding: 0;
+}
+
+.recommendations li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+}

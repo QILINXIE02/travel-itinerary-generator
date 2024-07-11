@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './CSS/WeatherForecast.css';
 
 const WeatherForecast = () => {
   const [destination, setDestination] = useState('');

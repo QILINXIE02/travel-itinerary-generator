@@ -1,0 +1,17 @@
+/* BudgetCalculator.css */
+.budget-calculator label {
+  display: block;
+  margin: 10px 0;
+}
+
+.budget-calculator ul {
+  padding: 0;
+}
+
+.budget-calculator li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+}
